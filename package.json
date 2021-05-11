@@ -1,0 +1,8 @@
+{
+    "scripts": {
+      "frontend:install": "cd myStore && npm install",
+      "backend:install": "cd nd0067-c2-creating-an-api-with-postgresql-and-express-project-starter && npm install",
+      "frontend:build": "cd myStore && npm run build",
+      "backend:build": "cd nd0067-c2-creating-an-api-with-postgresql-and-express-project-starter && npm run build"
+  }
+}

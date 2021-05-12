@@ -11,7 +11,7 @@
     "tsc": "tsc",
     "clean": "rm -rf www && mkdir www ",
     "build": "npm run clean && tsc && cp -rf Procfile www && cp -rf dist/  www && cp .npmrc www/.npmrc && cp package.json www/package.json && cd www && zip -r Archive.zip . && cd ..",
-    "deploy":  "chmod +x ./bin/deploy.sh && ./bin/deploy.sh"
+    "deploy":  "eb deploy"
   },
   "author": "Udacity",
   "license": "ISC",

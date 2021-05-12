@@ -48,6 +48,18 @@ The access url is `http://newudacitybucket.s3-website-us-east-1.amazonaws.com/`
 
 ## Continuous Integration and Deployment
 
-Circle CI was integrated to test and as well deploy. The environment configuration was configured on circle ci environmental variable
+Circle CI was integrated to test and as well deploy. The environment configuration was configured on circle ci environmental variable.
+The pipeline process include the job and the orbs.
+1)The orbs include the node version that circle ci should use and as well the aws circle ci version
+frontend:install": "cd myStore && npm install",
+      "backend:install": "cd myStore-api && npm install",
+      "frontend:build": "cd myStore && npm run build",
+      "backend:build": "cd myStore-api && npm run build",
+      "frontend:deploy": "cd myStore && npm run deploy"
+2) The jobs are meant to perform the following:
+    - Install all the packages used in the backend using `npm install`
+    - Then it should install all the necessary packages for the frontend
+    - It should build the projects
+    - Then deploy the frontend onto aws s3 platform
 
 

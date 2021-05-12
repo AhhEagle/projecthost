@@ -3,8 +3,11 @@
       "frontend:install": "cd myStore && npm install",
       "backend:install": "cd myStore-api && npm install",
       "frontend:build": "cd myStore && npm run build",
+      "frontend:deploy": "cd myStore && npm run deploy",
       "backend:build": "cd myStore-api && npm run build",
-      "frontend:deploy": "cd myStore && npm run deploy"
+      "backend:deploy": "cd myStore-api && npm run deploy",     
+      "frontend:test": "cd myStore && npm run test",
+      "backend:test": "cd myStore-api && npm run test"
     }
   }
 

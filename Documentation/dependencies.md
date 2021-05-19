@@ -8,4 +8,7 @@ The following dependencies were used:
  - AWS CLI
  - S3 Bucket
  - dot env
+ - Angular 
+ - pg
+ -jsonwebtoken
 

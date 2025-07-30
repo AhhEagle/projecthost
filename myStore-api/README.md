@@ -1,5 +1,5 @@
 # Storefront Backend Endpoints
-This is a project completed in fullfillment of udacity nanodegree. It is built with NodeJs. The API route and database schema is contained in the [REQUIREMENT.md](https://github.com/AhhEagle/storefront_api/blob/main/REQUIREMENTS.md)
+This is a project is built with NodeJs. The API route and database schema is contained in the [REQUIREMENT.md](https://github.com/AhhEagle/storefront_api/blob/main/REQUIREMENTS.md)
 
 ## Exploring The Project
 
@@ -13,11 +13,11 @@ Follow the following steps to create a database for both the dev and test enviro
 - in psql run the following:
     `CREATE USER postgres WITH PASSWORD 'password123';`
 - in psql run the following to create the test and dev database:
-    `CREATE DATABASE udacity_projecttesttest;`
-    `CREATE DATABASE udacity_project;`
+    `CREATE DATABASE projecttesttest;`
+    `CREATE DATABASE project;`
 - connect to each database and grant user all privileges i.e
-    `\c udacity_project`
-    `GRANT ALL PRIVILEGES ON DATABASE udacity_project TO postgres;`
+    `\c uproject`
+    `GRANT ALL PRIVILEGES ON DATABASE project TO postgres;`
 - to test that it is working run `\dt` and the output should be "No relations found." 
 ### Migrate
 - Run the below code to create db-migration files: 

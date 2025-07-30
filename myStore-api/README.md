@@ -29,10 +29,10 @@ This should not be typically included in a project but for this purpose:
      `POSTGRES_HOST=127.0.0.1`
      `POSTGRES_USER=postgres`
      `POSTGRES_PASSWORD=password123`
-     `POSTGRES_DB=udacity_project`
+     `POSTGRES_DB=project`
      `POSTGRES_PORT=5432`
-     `POSTGRES_DB_TEST=udacity_projecttesttest`
-     `BCRYPT_PASSWORD=olatejuoladimeji` 
+     `POSTGRES_DB_TEST=projecttesttest`
+     `BCRYPT_PASSWORD=olatoladi` 
      `PEPPER=peppergang`
      `TOKEN_SECRET=InterestingSecret123$`
      `ENV=dev`

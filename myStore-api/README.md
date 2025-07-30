@@ -1,4 +1,4 @@
-# Udacity: Storefront Backend Endpoints
+# Storefront Backend Endpoints
 This is a project completed in fullfillment of udacity nanodegree. It is built with NodeJs. The API route and database schema is contained in the [REQUIREMENT.md](https://github.com/AhhEagle/storefront_api/blob/main/REQUIREMENTS.md)
 
 ## Exploring The Project
